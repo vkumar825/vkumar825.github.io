@@ -1,27 +1,21 @@
 +++
 title = "Home"
 menu = "main"
-weight = 1
+weight = 10
 +++
 
-# A match made in heaven
+# Hi there! 👋
 
-There is a website obesity crisis. Bloated websites full of scripts, ads, and trackers are slowing your readers down every time they try to read your well-crafted content.
+I'm **Vivek Kumar**, a software engineer based in **Ithaca, NY**.
 
-Hugo Bear Blog is all you need to build a fantastic and optimized site or blog. It works perfectly on **any** viewing device. All you need to focus on is writing good content.
+This is my space where I plan to showcase stuff I've been working on, and occasionally sharing thoughts on various things on my blog.
 
-[Go to the original bear blog](https://bearblog.dev/).
+### A bit about me
+- Avid reader of fantasy and techno-thriller novels 📚
+- Huge fan of video games and anime 🎮
+- Love tinkering with IoT devices ⚙️
+- Tech and space enthusiast 🚀
 
----
-
-What happens when you combine the worlds' fastest, most lightweight static site generator with a design theme built to provide you with free, no-nonsense, super-fast blogging capabilities?
-
-**Use this theme, and find out!**
-
-Made with 💟 by [Jan Raasch](https://www.janraasch.com).
+If you'd like to get in touch, you can reach me by [email](mailto:vkumar01825@gmail.com) or connect with me on [LinkedIn](https://linkedin.com/in/vkumar01825). 
 
 ---
-
-Simply publish content online, grow an audience, and keep your pages tiny, fast, and **optimized for search engines**.
-
-Each page is ~5kb, and you can **host your blog yourself**.
