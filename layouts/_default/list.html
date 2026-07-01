@@ -1,0 +1,42 @@
+{{ define "main" }}
+<content>
+  {{ if or (eq .Section "blog") (eq .Kind "term") }}
+  <h1>Blog</h1>
+  {{ else }}
+  <h1>{{ .Title }}</h1>
+  {{ end }}
+
+  {{ if .Data.Singular }}
+  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
+  <small>
+    <a href="{{ "blog" | relURL }}">Remove filter</a>
+  </small>
+  {{ end }}
+
+  {{ if or (eq .Section "blog") (eq .Kind "term") }}
+    {{ range .Pages.GroupByDate "2006" }}
+      <h2>{{ .Key }}</h2>
+      <div class="recent-posts">
+        {{ range .Pages }}
+        <div class="post-entry">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <br>
+          <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+        </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ else }}
+    {{ .Content }}
+  {{ end }}
+</content>
+
+<style>
+.recent-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+</style>
+{{ end }}
