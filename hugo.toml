@@ -53,3 +53,8 @@ ignoreErrors = ["error-disable-taxonomy"]
     lineNos = false
     lineNumbersInTable = false
     codeFences = true
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
