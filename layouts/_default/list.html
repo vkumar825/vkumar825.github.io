@@ -1,19 +1,17 @@
 {{ define "main" }}
-<content>
-  {{ if or (eq .Section "blog") (eq .Kind "term") }}
-  <h1>Blog</h1>
-  {{ else }}
-  <h1>{{ .Title }}</h1>
-  {{ end }}
-
-  {{ if .Data.Singular }}
-  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
-  <small>
-    <a href="{{ "blog" | relURL }}">Remove filter</a>
-  </small>
-  {{ end }}
+<section class="content">
 
   {{ if or (eq .Section "blog") (eq .Kind "term") }}
+    
+    {{ if .Data.Singular }}
+    <div class="filter-notice">
+      <h3>Filtering for "{{ .Title }}"</h3>
+      <small>
+        <a href="{{ "blog" | relURL }}">Remove filter</a>
+      </small>
+    </div>
+    {{ end }}
+
     {{ range .Pages.GroupByDate "2006" }}
       <h2>{{ .Key }}</h2>
       <div class="recent-posts">
@@ -26,10 +24,13 @@
         {{ end }}
       </div>
     {{ end }}
+
   {{ else }}
+    <h1>{{ .Title }}</h1>
     {{ .Content }}
   {{ end }}
-</content>
+
+</section>
 
 <style>
 .recent-posts {
@@ -38,5 +39,8 @@
   gap: 15px;
 }
 
+.filter-notice h3 {
+  margin-bottom: 0;
+}
 </style>
 {{ end }}
