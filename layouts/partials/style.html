@@ -100,6 +100,17 @@
     border-radius: 3px;
   }
 
+  :not(pre) > code {
+    background-color: #F0F0F0;
+    color: #24292f;
+    font-family:
+      ui-monospace,
+      monospace;
+    font-size: 85%;
+    padding: 0.2em 0.4em;
+    border-radius: 6px;
+  }
+
   blockquote {
     border-left: 1px solid #999;
     color: var(--blockquote-color);
@@ -136,6 +147,8 @@
   .code pre {
     min-width: 100%;
     width: max-content;
+    box-sizing: border-box;
+    padding: 0 0.8em;
   }
 
   /* blog post list */
