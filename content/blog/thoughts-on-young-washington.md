@@ -1,5 +1,5 @@
 +++
-title = "My Thoughts on Young Washington"
+title = "Thoughts on Young Washington"
 date = "2026-07-04"
 tags = [
     "movie",
@@ -7,6 +7,7 @@ tags = [
 ]
 +++
 ---
+
 ## Happy 4th of July! 🎉 🦅 🇺🇸 🦅 🎉
 
 It's the 250th anniversary of the United States!
