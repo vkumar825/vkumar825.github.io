@@ -45,6 +45,10 @@ However, because of his mother's words of encouragement, he managed to pull hims
 
 The action scenes were great; the battles presented were thrilling to watch, with muskets galore!
 
-Overall, I found the movie very enjoyable to watch. Was it historically accurate? Probably not. It's a movie, and if it looks cool, then I'm all for it. I don't think it's perfect, but it's also not bad. Upon further review, I'd give this movie an **8.5/10**.
+Overall, I found the movie very enjoyable to watch. Was it historically accurate? Probably not. At the end of the day, it's a movie, and if it looks cool, I'm all for taking creative liberties.
+
+I don't think the movie's perfect, as some points felt a bit of a slog, and I personally couldn't connect with those moments. On the other hand, it isn't a bad movie by any means. 
+
+In my opinion, I'd give this movie an **8.5/10**. 
 
 It's definitely a movie I plan to re-watch once it's available on DVD.
