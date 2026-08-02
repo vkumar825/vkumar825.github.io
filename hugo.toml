@@ -36,7 +36,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # By default, if you want to read more than one blog post you have to always go
   # back to the /blog page.
   # By enabling this feature each blog post will have at the end a navigator
-  # enablePostNavigator = true
+  enablePostNavigator = true
 
   # By default, this theme displays dates with a format like "02 Jan, 2006", but
   # you can customize it by setting the `dateFormat` param in your site's config
@@ -58,3 +58,7 @@ ignoreErrors = ["error-disable-taxonomy"]
     endLevel = 3
     ordered = false
     startLevel = 2
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
