@@ -1,5 +1,5 @@
 +++
-title = "MacOS Development Setup Guide"
+title = "macOS Development Setup Guide"
 date = "2026-07-26"
 tags = [
     "development",
@@ -7,19 +7,16 @@ tags = [
     "mac",
 ]
 +++
----
 
 When I got this MacBook Pro 14" with 24 GB of RAM and 1 TB of storage a few months ago, the first thing I wanted to do was to have a development setup that didn't involve separate version managers for each programming language, running the risk of dependency hell, and constant frustration in managing those.
 
-Things have changed a lot over the last few years since the last time I set up my workflow. Before, I used a combination of `miniconda`, `nvm`, etc. But it's 2026, and what was great a few years ago is now replaced by newer tools that do the same job, but much faster and more efficiently.
+Things have changed a lot over the last few years since the last time I set up my workflow. Previously, I used a combination of `miniconda`, `nvm`, etc. 
 
-In this post, I'll go over each step of setting up a working development environment on MacOS. This tutorial assumes you're starting with a fresh copy of the operating system, a complete clean slate to work with.
+But it's 2026, and what was great a few years ago is now replaced by newer tools that do the same job, but much faster and more efficiently.
 
-It will focus primarily on the essentials, as well as installing VS Code (and Docker), and setting up Git. However, I will also include a section for setting up the Mac to work with local LLMs (which was my rationale for getting this Mac!) later down the road! 😎
+In this post, I'll go over each step of setting up a working development environment on macOS. This tutorial assumes you're starting from a fresh, clean install of macOS, and will focus primarily on the essentials.
 
-{{< toc >}}
-
-## Install The Essentials
+However, I plan to write another blog post down the line for setting up the Mac to work with local LLMs, which was my rationale for getting this Mac! 😎
 
 ### 1. Xcode Command Line Tools
 
@@ -107,9 +104,9 @@ Installed 4 packages in 4ms
  + typing-extensions==4.16.0
 ```
 
-## VS Code & Docker
+### 5. VS Code & Docker
 
-With the essentials installed, you have everything that is needed for your dev setup on your Mac. To be able to work with those languages, for instance, if you want to set up a Python project, you'd need a code editor or an integrated development environment (IDE). In this tutorial, we will be installing the code editor, **Visual Studio Code. 
+With the essentials installed, you have everything that is needed for your dev setup on your Mac. To be able to work with those languages, for instance, if you want to set up a Python project, you'd need a code editor or an integrated development environment (IDE). In this tutorial, we will be installing the code editor, **Visual Studio Code**. 
 
 To install it, enter the following command. The `--cask` flag tells Homebrew to install and manage the graphical user interface (GUI) applications.
 
@@ -117,7 +114,9 @@ To install it, enter the following command. The `--cask` flag tells Homebrew to 
 brew install --cask visual-studio-code
 ```
 
-This step is completely optional, but it is good to have it for development needs, and that is **Docker**. It is an open-source platform that lets you build, test, and deploy applications in isolated environments called containers. A good use case is if you want to use `MySQL` for your project; Docker avoids the need to install it with brew. This has the benefits of not having background services, and only running when you need to run them. 
+This step is completely optional, but it is good to have it for development needs, and that is **Docker**. 
+
+It is an open-source platform that lets you build, test, and deploy applications in isolated environments called containers. A good use case is if you want to use `MySQL` for your project; Docker avoids the need to install it with brew. This has the benefits of not having background services, and only running when you need to run them. 
 
 Enter the following command to install Docker:
 
@@ -125,7 +124,7 @@ Enter the following command to install Docker:
 brew install --cask docker
 ```
 
-## Git & Github
+### 6. Git & Github
 
 **Git** is an open-source program that allows you to keep track of your projects in version control. **GitHub** is a platform where you can put those project files tracked with Git on the web for others to see.
 
