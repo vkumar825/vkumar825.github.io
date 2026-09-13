@@ -16,6 +16,6 @@ This is my space where I plan to showcase stuff I've been working on, and occasi
 - Love tinkering with IoT devices ⚙️
 - Tech and space enthusiast 🚀
 
-If you'd like to get in touch, you can reach me by [email](mailto:vkumar01825@gmail.com) or connect with me on [LinkedIn](https://linkedin.com/in/vkumar01825). 
+If you'd like to get in touch, feel free to connect with me on [LinkedIn](https://linkedin.com/in/vkumar01825). 
 
 ---
