@@ -37,7 +37,7 @@ However, I ran into the error below when I tried entering the command above, des
 
 <div style="text-align: center;">
   <img 
-    src="https://res.cloudinary.com/u0n8mltb/image/upload/v1790040268/REGDB_E_CLASSNOTREG_y19osi.png" 
+    src="https://res.cloudinary.com/u0n8mltb/image/upload/f_auto,q_auto/v1790040268/REGDB_E_CLASSNOTREG_y19osi.png" 
     alt="Windows 11 REGDB_E_CLASSNOTREG error" 
     style="max-width: 100%; height: auto;"
   >
@@ -62,7 +62,7 @@ Next, create a folder in your home directory using `mkdir ~/code`, and this is w
 
 <div style="text-align: center;">
   <img 
-    src="https://res.cloudinary.com/u0n8mltb/image/upload/v1790044840/FILE_EXPLORER_WSL_qwc10v.png" 
+    src="https://res.cloudinary.com/u0n8mltb/image/upload/f_auto,q_auto/v1790044840/FILE_EXPLORER_WSL_qwc10v.png" 
     alt="Windows 11 File Explorer + WSL" 
     style="max-width: 100%; height: auto;"
   >
@@ -154,7 +154,7 @@ Click `Apply & Restart`.
 
 <div style="text-align: center;">
   <img 
-    src="https://res.cloudinary.com/u0n8mltb/image/upload/v1790047776/DOCKER_DESKTOP_wjhafu.png" 
+    src="https://res.cloudinary.com/u0n8mltb/image/upload/f_auto,q_auto/v1790047776/DOCKER_DESKTOP_wjhafu.png" 
     alt="Docker Desktop" 
     style="max-width: 100%; height: auto;"
   >
@@ -182,7 +182,7 @@ The picture below is the result you should see on your machine if the steps have
 
 <div style="text-align: center;">
   <img 
-    src="https://res.cloudinary.com/u0n8mltb/image/upload/v1790048561/VSCODE_yacwu2.png" 
+    src="https://res.cloudinary.com/u0n8mltb/image/upload/f_auto,q_auto/v1790048561/VSCODE_yacwu2.png" 
     alt="VS Code w/ WSL extension" 
     style="max-width: 100%; height: auto;"
   >
