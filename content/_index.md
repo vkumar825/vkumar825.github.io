@@ -4,18 +4,19 @@ menu = "main"
 weight = 10
 +++
 
-# Hi there! 👋
+## Hi there! 👋
 
 I'm **Vivek Kumar**, a software engineer based in **Ithaca, NY**.
 
-This is my space where I plan to showcase stuff I've been working on, and occasionally sharing thoughts on various things on my blog.
+This is my space where I showcase projects I've worked on and, from time to time, share my thoughts.
 
-### A bit about me
-- Avid reader of fantasy and techno-thriller novels 📚
-- Huge fan of video games and anime 🎮
+## A bit about me
+- Avid reader of fantasy and techno-thrillers 📚
+- Huge video game and anime fan 🎮
 - Love tinkering with IoT devices ⚙️
 - Tech and space enthusiast 🚀
+- Currently trying to master the electric guitar 🎸
 
-If you'd like to get in touch, feel free to connect with me on [LinkedIn](https://linkedin.com/in/vkumar01825). 
+Feel free to check out my code on [GitHub](https://github.com/vkumar825) or connect on [LinkedIn](https://linkedin.com/in/vkumar01825).
 
 ---
