@@ -5,7 +5,7 @@ lastmod = "2026-08-02"
 tags = [
     "movie",
     "review",
-  ]
+]
 +++
 
 ### Happy 4th of July! 🎉 🦅 🇺🇸 🦅 🎉

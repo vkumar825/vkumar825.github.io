@@ -12,6 +12,9 @@ locale = "en-US"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+# Preserve tag casing (e.g., AI instead of Ai)
+capitalizeListTitles = false
+
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]

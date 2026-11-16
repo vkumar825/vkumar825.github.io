@@ -2,10 +2,10 @@
 title = "Setting Up Local LLMs on macOS"
 date = "2026-08-21"
 tags = [
-    "ollama",
-    "mac",
-    "artificial intelligence",
+    "development",
     "guide",
+    "AI",
+    "macOS",
 ]
 +++
 

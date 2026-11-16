@@ -4,8 +4,7 @@ date = "2026-09-21"
 tags = [
     "development",
     "guide",
-    "windows",
-    "WSL"
+    "Windows",
 ]
 +++
 

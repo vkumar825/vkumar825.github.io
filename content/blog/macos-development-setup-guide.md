@@ -4,7 +4,7 @@ date = "2026-07-26"
 tags = [
     "development",
     "guide",
-    "mac",
+    "macOS",
 ]
 +++
 
