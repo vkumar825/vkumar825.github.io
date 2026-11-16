@@ -13,13 +13,9 @@
     {{ else }}
     <div class="blog-intro">
       {{ .Content }}
-      <p>
-        Subscribe via
         <a href="{{ "blog/index.xml" | relURL }}" class="rss-link">
-          {{- partial "rss-icon.html" . -}} RSS Feed
+          {{- partial "rss-icon.html" . -}} Follow via RSS
         </a>
-        to stay updated.
-      </p>
       <hr>
     </div>
     {{ end }}
