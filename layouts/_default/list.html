@@ -10,6 +10,18 @@
         <a href="{{ "blog" | relURL }}">Remove filter</a>
       </small>
     </div>
+    {{ else }}
+    <div class="blog-intro">
+      {{ .Content }}
+      <p>
+        Subscribe via
+        <a href="{{ "blog/index.xml" | relURL }}" class="rss-link">
+          {{- partial "rss-icon.html" . -}} RSS Feed
+        </a>
+        to stay updated.
+      </p>
+      <hr>
+    </div>
     {{ end }}
 
     {{ range .Pages.GroupByDate "2006" }}
@@ -41,6 +53,13 @@
 
 .filter-notice h3 {
   margin-bottom: 0;
+}
+
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  vertical-align: middle;
 }
 </style>
 {{ end }}
